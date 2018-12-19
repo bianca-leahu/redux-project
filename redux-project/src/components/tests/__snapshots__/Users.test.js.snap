@@ -1,0 +1,418 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Users /> matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Users
+    closeForm={[Function]}
+    handleChange={[Function]}
+    handleSubmit={[Function]}
+    hasError={false}
+    isFormOpen={false}
+    noProjects={false}
+    noRoles={false}
+    projects={
+      Array [
+        Object {
+          "id": 1,
+          "name": "Project",
+        },
+      ]
+    }
+    roles={
+      Array [
+        Object {
+          "id": 1,
+          "name": "Role",
+        },
+      ]
+    }
+    showErrorMessage={false}
+    showForm={[Function]}
+    userName=""
+    users={
+      Array [
+        Object {
+          "id": 1,
+          "name": "John Doe",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="users-page__list"
+        >
+          <h1
+            className="my-4 text-center"
+          >
+            Users
+          </h1>
+          <div>
+            <p
+              className="mt-2 mb-4 users-page__list-item "
+              onClick={[Function]}
+            >
+              John Doe
+               
+              <br />
+              <small>
+                
+              </small>
+              <small>
+                
+              </small>
+            </p>
+          </div>
+        </div>,
+        null,
+      ],
+      "className": "users-page",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1
+              className="my-4 text-center"
+            >
+              Users
+            </h1>,
+            <div>
+              <p
+                className="mt-2 mb-4 users-page__list-item "
+                onClick={[Function]}
+              >
+                John Doe
+                 
+                <br />
+                <small>
+                  
+                </small>
+                <small>
+                  
+                </small>
+              </p>
+            </div>,
+          ],
+          "className": "users-page__list",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Users",
+              "className": "my-4 text-center",
+            },
+            "ref": null,
+            "rendered": "Users",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="mt-2 mb-4 users-page__list-item "
+                  onClick={[Function]}
+                >
+                  John Doe
+                   
+                  <br />
+                  <small>
+                    
+                  </small>
+                  <small>
+                    
+                  </small>
+                </p>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "John Doe",
+                    " ",
+                    <br />,
+                    <small>
+                      
+                    </small>,
+                    null,
+                    <small>
+                      
+                    </small>,
+                  ],
+                  "className": "mt-2 mb-4 users-page__list-item ",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "John Doe",
+                  " ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "",
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": "small",
+                  },
+                  null,
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "",
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": "small",
+                  },
+                ],
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      null,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="users-page__list"
+          >
+            <h1
+              className="my-4 text-center"
+            >
+              Users
+            </h1>
+            <div>
+              <p
+                className="mt-2 mb-4 users-page__list-item "
+                onClick={[Function]}
+              >
+                John Doe
+                 
+                <br />
+                <small>
+                  
+                </small>
+                <small>
+                  
+                </small>
+              </p>
+            </div>
+          </div>,
+          null,
+        ],
+        "className": "users-page",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1
+                className="my-4 text-center"
+              >
+                Users
+              </h1>,
+              <div>
+                <p
+                  className="mt-2 mb-4 users-page__list-item "
+                  onClick={[Function]}
+                >
+                  John Doe
+                   
+                  <br />
+                  <small>
+                    
+                  </small>
+                  <small>
+                    
+                  </small>
+                </p>
+              </div>,
+            ],
+            "className": "users-page__list",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Users",
+                "className": "my-4 text-center",
+              },
+              "ref": null,
+              "rendered": "Users",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p
+                    className="mt-2 mb-4 users-page__list-item "
+                    onClick={[Function]}
+                  >
+                    John Doe
+                     
+                    <br />
+                    <small>
+                      
+                    </small>
+                    <small>
+                      
+                    </small>
+                  </p>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "John Doe",
+                      " ",
+                      <br />,
+                      <small>
+                        
+                      </small>,
+                      null,
+                      <small>
+                        
+                      </small>,
+                    ],
+                    "className": "mt-2 mb-4 users-page__list-item ",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "John Doe",
+                    " ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": "br",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": "small",
+                    },
+                    null,
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": "small",
+                    },
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        null,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
